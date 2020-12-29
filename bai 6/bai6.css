@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(./loginscreen.jpg);
+    background-size: cover;
+    font-family: Helvetica;
+}
+h1{
+    float: left;
+    font-size: 50px;
+    border-bottom: 8px solid white;
+    margin-bottom: 30px;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    width: 25%;
+    margin-left: 30px;
+}
+.dangnhap{
+    width:300px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    color:white;
+}
+.box{
+    width: 20%;
+    border-bottom: 1px solid whitesmoke;
+    font-size: 25px;
+    padding:8px 30px;
+    margin:8px 30px;
+}
+ .box input{
+    background:none;
+    outline: none;
+    overflow: none;
+    border: none;
+    color: white;
+}
+ button{
+    border: 1px white;
+    margin: 10px 80px;
+    font-size: 10pt;
+    color: white;
+    background: none; 
+    cursor: pointer;
+    transition: 0.8s;
+}
+ button:hover {
+     background-color: #706c61;
+     width: 100px;
+     overflow: auto;
+ }
+© 2020 GitHub, Inc.
