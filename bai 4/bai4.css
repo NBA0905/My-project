@@ -1,0 +1,35 @@
+button{
+    border: 2px teal;
+    border-radius: 25px;
+    margin: 10px 75px;
+    box-align: center;
+    font-size: 25pt;
+    color: white;
+    background: none; 
+    transition: 0.8s;
+}
+.container{
+    position: relative;
+  text-align: center;
+  color: white;
+}
+.bottom{
+    position: absolute;
+  bottom: 20px;
+  left:15px;
+}
+
+button:hover {
+    background-color: #83203c;
+    overflow: auto;
+}
+h1{
+    font-style: italic;
+    font-size: 30pt;
+    text-align: center;
+    border: 2px dashed black;
+}
+body{
+    background: black;
+    color: white;
+}

@@ -1,0 +1,9 @@
+button{
+    border: 1px solid white;
+    margin: 10px 80px;
+    font-size: 10pt;
+    color: teal;
+    background: none; 
+    cursor: pointer;
+    transition: 0.8s;
+}
