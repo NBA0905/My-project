@@ -7,17 +7,15 @@ button{
     color: white;
     background: none; 
     transition: 0.8s;
+    border bottom: grey;
 }
-.container{
-    position: relative;
+.container2{
+    /* position: relative;
   text-align: center;
-  color: white;
+  color: white; */
+  margin-left: 80px;
 }
-.bottom{
-    position: absolute;
-  bottom: 20px;
-  left:15px;
-}
+
 
 button:hover {
     background-color: #83203c;
@@ -30,6 +28,15 @@ h1{
     border: 2px dashed black;
 }
 body{
-    background: black;
+    background: #000000;
     color: white;
+}
+.left{
+    float: left;
+    position: relative;
+   /* display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  padding-top: 20px;
+  margin-left: 10px; */
 }
