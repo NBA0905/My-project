@@ -1,0 +1,156 @@
+/* .menu button{
+    border: 2px solid #83203c;
+    border-radius: 25px;
+    margin: 10px 75px;
+    padding: 10px 5px;
+    box-align: center;
+    font-size: 25pt;
+    color: white;
+    background: none; 
+    transition: 0.8s;
+    border-bottom: grey; */
+}
+
+
+/* .menu button:hover {
+    background-color: #83203c;
+    overflow: auto; */
+}
+h1{
+    font-style: italic;
+    font-size: 30pt;
+    text-align: center;
+    border: 2px dashed black;
+}
+body{
+    background: #000000;
+    color: white;
+    margin-left: 30px;
+}
+
+header{ background: #433d3c}
+
+nav ul {
+    list-style-type: ;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    float:left;
+    --c: #83203c;
+    color: var(--c);
+    font-size: 16px;
+    border: 0.3em solid var(--c);
+    border-radius: 0.5em;
+    width: 12em;
+    height: 3em;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: sans-serif;
+    letter-spacing: 0.1em;
+    text-align: center;
+    line-height: 3em;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    transition: 0.5s;
+    margin: 1em;
+}
+
+nav ul li span {
+    position: absolute;
+    width: 25%;
+    height: 100%;
+    background-color: var(--c);
+    transform: translateY(150%);
+    border-radius: 50%;
+    left: calc((var(--n) - 1) * 25%);
+    transition: 0.5s;
+    transition-delay: calc((var(--n) - 1) * 0.1s);
+    z-index: -1;
+}
+
+nav ul li:hover {
+    color: black;
+}
+
+nav ul li:hover span {
+    transform: translateY(0) scale(2);
+}
+
+nav ul li span:nth-child(1) {
+    --n: 1;
+}
+
+nav ul li span:nth-child(2) {
+    --n: 2;
+}
+
+nav ul li span:nth-child(3) {
+    --n: 3;
+}
+
+nav ul li span:nth-child(4) {
+    --n: 4;
+}
+
+.container2{
+    position: absolute;
+    padding: none;
+    float: left;
+}
+.container{
+  position: relative;
+  margin-left: 50px;
+  font-family: 'Trebuchet MS';
+  float: left;
+  height: 500px;
+}
+.btn { 
+    margin: none;
+    background: black;
+    color: white;
+    border: 2px solid black;
+    border-radius: 25px;
+    font-size: 25px;
+    padding: 10px 20px;
+}
+.btn2{
+    margin: none;
+    background: white;
+    color: black;
+    border: 2px solid white;
+    border-radius: 25px;
+    font-size: 25px;
+    padding: 10px 20px;
+}
+.container .left{
+  position: absolute;
+  top: 40%;
+  left: 5%;
+  font-size: 10px;
+  padding: 10px 0px;
+  margin-right: none;
+  cursor: pointer;
+  border-radius: 5px;
+display: inline-block;
+transition: all 0.3s ease 0s;
+font-family: 'Trebuchet MS';
+}
+.btn:hover{
+    color: #494949 ;
+border-radius: 50px;
+border-color: #494949 ;
+transition: all 0.3s ease 0s;
+
+}
+.btn2:hover{
+    color: #494949;
+border-radius: 50px;
+border-color: #494949;
+transition: all 0.3s ease 0s;
+
+}
+
+
