@@ -9,13 +9,13 @@
     background: none; 
     transition: 0.8s;
     border-bottom: grey; */
-}
+
 
 
 /* .menu button:hover {
     background-color: #83203c;
-    overflow: auto; */
-}
+    overflow: auto; 
+} */
 h1{
     font-style: italic;
     font-size: 30pt;
@@ -23,7 +23,7 @@ h1{
     border: 2px dashed black;
 }
 body{
-    background: #000000;
+    background: black;
     color: white;
     margin-left: 30px;
 }
@@ -31,7 +31,7 @@ body{
 header{ background: #433d3c}
 
 nav ul {
-    list-style-type: ;
+    list-style-type: none ;
     margin: 0;
     padding: 0;
 }
@@ -96,25 +96,66 @@ nav ul li span:nth-child(4) {
 }
 
 .container2{
-    position: absolute;
-    padding: none;
-    float: left;
+    position: relative;
+    padding: none ;
+    display: block;
+    float: right;
+    margin: none;
+    margin-right: 50px; 
+    margin-bottom: 10px;
 }
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 2s;
+    background-color: black;
+    border: solid #83203c ;
+  }
+  
+  .container2:hover .overlay {
+    opacity: 1;
+  }
+
+.text {
+    color: #83203c;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
 .container{
   position: relative;
   margin-left: 50px;
   font-family: 'Trebuchet MS';
   float: left;
   height: 500px;
+  margin-right: -20px;
+  
 }
 .btn { 
-    margin: none;
+    margin-top: 10px;
     background: black;
     color: white;
     border: 2px solid black;
     border-radius: 25px;
     font-size: 25px;
     padding: 10px 20px;
+    position: absolute;
+    bottom: -250px;
+
 }
 .btn2{
     margin: none;
@@ -124,6 +165,10 @@ nav ul li span:nth-child(4) {
     border-radius: 25px;
     font-size: 25px;
     padding: 10px 20px;
+    position: absolute;
+    bottom: -250px;
+    left: 150px
+
 }
 .container .left{
   position: absolute;
@@ -153,4 +198,4 @@ transition: all 0.3s ease 0s;
 
 }
 
-
+/* .page{display: flex;} */
