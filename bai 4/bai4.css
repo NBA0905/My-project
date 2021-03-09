@@ -16,12 +16,12 @@
     background-color: #83203c;
     overflow: auto; */
 }
-h1{
+/* h1{
     font-style: italic;
-    font-size: 30pt;
+    font-size: 10pt;
     text-align: center;
-    border: 2px dashed black;
-}
+    border: 2px dashed white;
+} */
 body{
     background: #000000;
     color: white;
@@ -153,4 +153,9 @@ transition: all 0.3s ease 0s;
 
 }
 
+.box{
+    margin-left: 20px;
+    position: relative;
+}
 
+.worth{ margin: 100px 100px 100px 100px;}

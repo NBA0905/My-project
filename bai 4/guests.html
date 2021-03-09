@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: black;
+            color: white;
+        }
+        .container2{
+    position: relative;
+    padding: 10px 10px ;
+    /* display: block; */
+    float: left;
+    margin: none;
+    margin-right: 50px; 
+    margin-bottom: 10px;
+    margin-left: 100px;
+    border: solid white;
+    align-items: center;
+}
+        .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 2s;
+    background-color: black;
+    border: solid 5px #83203c ;
+  }
+  
+  .container2:hover .overlay {
+    opacity: 1;
+  }
+
+.text {
+    color: #83203c;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+    </style>
+</head>
+<body>
+    <a href="avicii.html">
+    <div class="container2">
+        <img src="avicii.jpg" alt="" width="500px" height="600px">
+           <div class="overlay">
+             <div class="text">Avicii</div>
+          </div>
+        </div>
+    </a>
+    
+    <a href="chainsmoker.html">
+    <div class="container2">
+         <img src="chainsmoker.jpg" alt="" width="500px" height="600px">
+           <div class="overlay">
+            <div class="text">The Chainsmokers</div>
+              </div>
+            </div>
+          </a>
+              
+</body>
+</html>

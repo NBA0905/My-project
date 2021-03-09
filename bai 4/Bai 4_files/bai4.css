@@ -104,7 +104,15 @@ nav ul li span:nth-child(4) {
     margin-right: 50px; 
     margin-bottom: 10px;
 }
-
+.container3{
+    position: relative;
+    padding: none ;
+    display: block;
+    margin: none;
+    float: left;
+    margin-right: 50px; 
+    margin-bottom: 10px;
+}
 .overlay {
     position: absolute;
     top: 0;
@@ -120,6 +128,10 @@ nav ul li span:nth-child(4) {
   }
   
   .container2:hover .overlay {
+    opacity: 1;
+  }
+
+  .container3:hover .overlay {
     opacity: 1;
   }
 
@@ -199,3 +211,5 @@ transition: all 0.3s ease 0s;
 }
 
 /* .page{display: flex;} */
+.worth{ padding-top: 520px;align-items: center; font-family: 'Franklin Gothic Medium'; font-size: 40px; }
+.box{  margin-left: 100px;position: absolute; float:left; width: 100%; }
